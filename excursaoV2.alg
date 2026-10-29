@@ -29,7 +29,8 @@ inicio
               
                 fimse
         fimse
-ate passageiros = 0
+    ate passageiros = 0
+    fimse
 
 
 fimalgoritmo
