@@ -1,0 +1,24 @@
+{
+  "name": "treinamento_jt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rehsantos2612-lgtm/treinamento_jt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rehsantos2612-lgtm/treinamento_jt/issues"
+  },
+  "homepage": "https://github.com/rehsantos2612-lgtm/treinamento_jt#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}

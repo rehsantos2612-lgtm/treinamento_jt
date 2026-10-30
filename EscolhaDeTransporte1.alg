@@ -1,16 +1,16 @@
-algoritmo "excursaoV2"
+Algoritmo "EscolhaDeTransporteV2"
 
-var
-passageiros: inteiro
-numero: inteiro
+Var
+    passageiros: inteiro
 
 inicio
-
+escreval("Este programa ajuda a escolher o tipo de transporte adequado com base no número de passageiros.")
+escreval("")
     repita
-        escreval("Digite a quantidade de passageiros ou 0 para encerrar: ")
+        escreva("Informe o total de passageiros (ou 0 para sair): ")
         leia(passageiros)
 
-        se (passageiros <> 0) entao
+        se passageiros > 0 entao
             se passageiros <= 4 entao
                 escreval("Você pode escolher um carro de passeio.")
             senao
@@ -26,11 +26,14 @@ inicio
                             escreval("Número excede a capacidade máxima.")
                         fimse
                     fimse
-              
                 fimse
+            fimse
+        senao
+            se passageiros < 0 entao
+                escreval("Número de passageiros inválido.")
+            fimse
         fimse
+        escreval("")
     ate passageiros = 0
-    fimse
-
 
 fimalgoritmo
